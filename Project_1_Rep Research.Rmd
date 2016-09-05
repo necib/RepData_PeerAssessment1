@@ -48,7 +48,7 @@ library(Rmisc)
 setwd("D:/Users/ChokriBenNecib/Data Analytics/Tools/RFiles")
 ```
 
-First, we read data from the CSV-File and convert date values in date objects.
+First, we read data from the csv-File and convert date values in date objects.
 
 ```{r , echo= TRUE}
 dfm <-
@@ -117,7 +117,7 @@ ggplot(agg.steps_by_day, aes(x = total_steps)) +
 
 The histogram shows that the largest count of steps is around the 10000-12500 interval. Thus we can infer that the median will be in this interval and the data is symmetrically distributed around the center of the distribution.
 
-We can calculate mean and median of total number of steps per day as follows:
+In the following, We calculate mean and median of total number of steps per day. 
 
 ```{r , echo= TRUE}
 agg.mean_by_day  <-

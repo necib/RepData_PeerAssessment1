@@ -48,7 +48,7 @@ library(Rmisc)
 setwd("D:/Users/ChokriBenNecib/Data Analytics/Tools/RFiles")
 ```
 
-First, we read data from the csv-File and convert date values in date objects.
+First, we read data from the CSV-File and convert date values in date objects.
 
 ```{r , echo= TRUE}
 dfm <-
